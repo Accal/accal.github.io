@@ -181,6 +181,10 @@ hr {
   padding: 5% 0;
 }
 
+.contact-name {
+  padding: 0 5%;
+}
+
 .contact-info {
   font-family: Source Sans Pro;
   font-style: normal;
