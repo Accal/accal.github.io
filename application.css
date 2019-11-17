@@ -1,0 +1,291 @@
+/* Name: Ammar Rahic */
+/* Course: CS412 Web application development */
+/* Assignment: 2 */
+/* Due Date: 17/11/2019 */
+
+/* Fonts */
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url("fonts/SourceSansPro-Regular.ttf") format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url("fonts/SourceSansPro-Bold.ttf") format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Element Defaults */
+
+a {
+  text-decoration: none;
+  color: #4B5F67;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  max-width: 40%;
+  backround-color: #bbb79b;
+  border-radius: 10px;
+}
+
+/* Layout Defaults */
+.d-block {
+  display: block;
+}
+
+.block-center {
+  margin: 0 auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.row {
+  margin: 5% 0;
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.w-100 {
+  max-width: 100%;
+  width: 100;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.h1 {
+  font-family: Suez One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 105.6%;
+  color: #283134;
+}
+
+.text-content {
+  padding: 2% 25%;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2em;
+  line-height: 170%;
+  color: #4B5F67;
+}
+
+.section-title {
+  padding-top: 2%;
+}
+
+/* Navbar */
+
+.navbar ul {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 100%;
+  color: #4B5F67;
+  float: left;
+  margin: auto 0;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.navbar .login {
+  float: right;
+}
+
+.navbar input[type=text] {
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-size: 12px;
+  line-height: 100%;
+
+  border-radius: 50px;
+  padding: 6px;
+  margin: 16px 8px;
+  font-size: 17px;
+  border: none;
+  width: 150px; 
+}
+
+.navbar .login button {
+  display: block;
+  float: right;
+  padding: 0 40px;
+  margin: 16px 8px;
+  background: #fff;
+  font-size: 17px;
+  border: none;
+  border-radius: 50px;
+}
+
+.navbar .login button:hover {
+  background: #ddd;
+  color: #4B5F67;
+}
+
+/* Contact info */
+
+#contact-information {
+  padding: 5% 0;
+}
+
+.contact-info {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 170%;
+  color: #4B5F67;
+  opacity: 0.9;
+}
+
+
+/* Image */
+
+.rounded-image {
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: right;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+/* Contact form */
+.contact-form-head {
+  font-family: Suez One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 105.6%;
+  color: #283134;
+
+  position: relative;
+  margin: 100px 0 25px 0;
+  text-align: center;
+}
+
+.contact-form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+.contact-input {
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: #726659;
+
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-input:hover {
+  background: #F2E1D4;
+  color: #4B5F67;
+}
+
+.contact-textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+
+  background: transparent;
+  outline: none;
+
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+
+  border: solid 1px #b3aca7;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-textarea:hover {
+  background: #F2E1D4;
+  color: #4B5F67;
+}
+
+.contact-submit {
+  width: 502px;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+
+  outline:none;
+  cursor: pointer;
+
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+.contact-submit:hover {
+  color: #4B5F67;
+}
