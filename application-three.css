@@ -1,0 +1,131 @@
+/* Fonts */
+@font-face {
+  font-family: 'Unica One';
+  src: url('../fonts/UnicaOne-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('../fonts/Vollkorn-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('../fonts/Vollkorn-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('../fonts/Vollkorn-Italic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  background-color: #fffcf2 !important; 
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.navbar {
+  background-color: #6b4423;
+  padding: 0px;
+}
+
+.navbar-shrink {
+  padding: 5px 60px !important;
+  transition: 0.2s;
+}
+
+.nav-link {
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.btn {
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+}
+
+.form-control {
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+}
+
+.rounded-circle {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: right;
+}
+
+hr {
+  max-width: 40%;
+  border-top: 1px solid #F18805 !important;
+  border-radius: 10px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #212529 !important;
+}
+
+a:hover {
+  color: #212529 !important;
+}
+
+.display-4 {
+  font-family: Source Sans Pro;
+}
+
+.jumbotron {
+  background-color: #EFD28D !important;
+  background-color: #fffcf2 !important;
+
+  border-bottom: 3px solid #6B4423;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+}
+
+.container.text-center {
+  max-width: 60%;
+}
+
+.form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.send {
+  background-color: #6b4423 !important;
+  color: #fffcf2 !important;
+}
+
+.successful-submit {
+  display: none;
+}
+
+.btn.m-1 {
+  border: none;
+  background-color: #6b4423 !important; 
+  color: #fff;
+}
+
+.btn.m-1:hover {
+  color: #fff;
+}
