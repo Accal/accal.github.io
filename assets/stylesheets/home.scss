@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+        Name: Ammar Rahic
+        Course: CS412 Web application development
+        Assignment: 1
+        Due Date: 28/10/2019 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/progress-three.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../assets/javascript/application.js"></script>
+    <title>Resume</title>
+  </head>
+
+  <body div data-spy="scroll" data-target="#navbar" data-offset="0">
+
+    <nav id="navbar" class="navbar fixed-top navbar-expand-xl navbar-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <div class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-information">Contact</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="#basic-information">Basic Information</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#education-section">Education</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#technologies-section">Technologies</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills-section">Skills</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Progresses</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/progress-one.html">Progress 1</a>
+              <a class="dropdown-item" href="/progress-two.html">Progress 2</a>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+          <h1 class="display-4">Ammar Rahic</h1>
+          <img
+            class="thumbnail mb-3"
+            src="../assets/images/ruby.png"
+            alt="An image of ruby"
+          />
+          <p class="lead">
+            Welcome to the personal CV of Ammar Rahic - Backend Ruby Develper
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-information">
+      <div class="row mt-5">
+        <div
+          class="col-sm-6 text-center d-flex flex-column justify-content-center"
+        >
+          <div class="contact-info">
+            <h1>Contact Info:</h1>
+            <h2>Ammar Rahic</h2>
+            <p><a href="mailto: ammarrahic@live.com">ammarrahic@live.com</a></p>
+            <p><a href="https://www.github.com/accal">github.com/Accal</a></p>
+            <p>(+387) 62 476-885</p>
+            <p>Malta 25, 71000 Sarajevo</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <img
+            class="rounded-circle mx-5"
+            src="../assets/images/ammar.jpg"
+            alt="An image of myself"
+          />
+        </div>
+      </div>
+    </section>
+    <hr class="mt-5" />
+    <section id="basic-information" class="container text-center">
+      <h1 class="">About me</h1>
+      <p class="text-content">
+        I'm a 3rd year student of the International University of Sarajevo with
+        experience in full-stack web development using Ruby on Rails, database
+        design in SQL, application development using Java and C++, and Git
+        alongside GitHub for version control. Seeking opportunities to develop
+        web applications using modern tools and methodologies in a challenging,
+        collaborative environment.
+      </p>
+    </section>
+    <hr />
+    <section id="education-section" class="container text-center">
+      <h1 class="h1 section-title text-center">Education</h1>
+      <div class="text-content">
+        <p>
+          <a href="http://www.bosnjackagim.edu.ba/">
+            Prva Bosnjacka Gimnazija (<i>Cambridge International School</i>)
+          </a>
+          | 2012 – 2016
+        </p>
+        <p>
+          <b>Software Engineering</b> |
+          <a href="https://www.ius.edu.ba/"
+            >International University of Sarajevo</a
+          >
+          | 2016 - 2020 | CGPA 3.76 / 4
+        </p>
+        <p>
+          <b>Computer Science</b> |
+          <a href="http://www.metu.edu.tr/">Middle East Technical University</a>
+          ( <i>Erasmus+</i> ) | 2018 Fall semsester
+        </p>
+      </div>
+    </section>
+    <hr />
+    <section id="technologies-section" class="container text-center">
+      <h1 class="h1 section-title text-center">Technologies</h1>
+      <div class="text-content">
+        <dl>
+          <dt class="text-bold"><b>Ruby on Rails</b></dt>
+          <dd>
+            Proficient at Full-stack development in Rails, writing clean,
+            reusable code adhering to the DRY principle
+          </dd>
+          <dt class="text-bold"><b>HTML5, CSS3</b></dt>
+          <dd>
+            Proficient in Front-end development using HTML 5 and CSS 3 to make
+            modern looking websites
+          </dd>
+          <dt class="text-bold"><b>JAVA</b></dt>
+          <dd>
+            Proficient in Object-oriented development in Java
+          </dd>
+          <dt class="text-bold"><b>C / C++</b></dt>
+          <dd>
+            Familiar with programming command-line programs in C and C++
+          </dd>
+          <dt class="text-bold"><b>Git</b></dt>
+          <dd>
+            GIT Proficient at using Git and GitHub for version control alone or
+            with multiple collaborators
+          </dd>
+          <dt class="text-bold"><b>SQL</b></dt>
+          <dd>
+            Used to writing custom SQL queries and database design
+          </dd>
+        </dl>
+      </div>
+    </section>
+    <hr />
+    <section id="skills-section" class="container text-center">
+      <h1 class="h1 section-title text-center">Skills</h1>
+      <div class="text-content">
+        <p>
+          <b class="text-bold">Language Proficiency:</b> Bosnian
+          (<i>Fluent</i>), English (<i>Fluent</i>), French (<i>B2</i>)
+        </p>
+        <p>
+          Working knowledge of MVC design patterns. Experienced with
+          object-oriented methodology.
+        </p>
+        <p>
+          Familiar with Agile / SCRUM development through university projects
+          and specialized courses.
+        </p>
+      </div>
+    </section>
+    <hr />
+    <section>
+      <form class="form">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="form-group">
+          <label for="name"></label>
+          <input
+            id="name"
+            type="text"
+            class="form-control"
+            placeholder="NAME"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email"></label>
+          <input
+            id="name"
+            type="email"
+            class="form-control"
+            placeholder="EMAIL"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="textarea"></label>
+          <textarea
+            type="text"
+            class="form-control"
+            placeholder="MESSAGE"
+          ></textarea>
+        </div>
+
+        <input
+          type="submit"
+          class="btn btn-block send mb-5"
+          value="Send Message!"
+        />
+      </form>
+
+      <div
+        class="flex-column my-5 successful-submit h-100 justify-content-center align-items-center"
+      >
+        <img src="../assets/images/check.svg" alt="checkmark" class="d-block" />
+        <h3 class="page-title mt-4 mb-2">Thank you for contacting me</h3>
+        <p class="successful-message">Your message has been sent</p>
+      </div>
+    </section>
+    <hr />
+
+    <section id="calculator">
+      <div class="row">
+        <div class="col-4 offset-4 text-center">
+          <h2>Calculator</h2>
+          <div class="calculator">
+            <div class="val">
+              <textarea id="screen" class="form-control" value=""></textarea>
+            </div>
+            <div>
+              <input class="btn m-1" type="button" value="1" id="1" />
+              <input class="btn m-1" type="button" value="2" id="2" />
+              <input class="btn m-1" type="button" value="3" id="3" />
+              <input class="btn m-1" type="button" value="+" id="plus" />
+              <input class="btn m-1" type="button" value="C" id="clear" />
+            </div>
+            <div>
+              <input class="btn m-1" type="button" value="4" id="1" />
+              <input class="btn m-1" type="button" value="5" id="2" />
+              <input class="btn m-1" type="button" value="6" id="3" />
+              <input class="btn m-1" type="button" value="-" id="minus" />
+            </div>
+            <div>
+              <input class="btn m-1" type="button" value="7" id="1" />
+              <input class="btn m-1" type="button" value="8" id="2" />
+              <input class="btn m-1" type="button" value="9" id="3" />
+              <input class="btn m-1" type="button" value="x" id="times" />
+            </div>
+            <div>
+              <input class="btn m-1" type="button" value="." id="dot" />
+              <input class="btn m-1" type="button" value="0" id="0" />
+              <input class="btn m-1" type="button" value="=" id="result" />
+              <input class="btn m-1" type="button" value="/" id="slash" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

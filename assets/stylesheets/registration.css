@@ -1,0 +1,51 @@
+.registration {
+  padding-top: 50px;
+}
+
+.registration h1 {
+  color: #6b4423 !important;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.registration h3 {
+  /* color: #6b4423 !important; */
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.registration .form-group {
+  margin-bottom: 25px;
+}
+.registration .btn.btn-custom {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  color: #212121;
+}
+.btn-custom {
+  color: #fff;
+  background-color: #6b4423 !important;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+  color: #fff;
+}
+
+#footer {
+  color: #6d6d6d;
+  font-size: 12px;
+  text-align: center;
+}
+#footer p {
+  margin-bottom: 0;
+}
+#footer a {
+  color: inherit;
+}
