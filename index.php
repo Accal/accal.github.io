@@ -122,6 +122,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="progresses/progress-one.html">Progress 1</a>
               <a class="dropdown-item" href="progresses/progress-two.html">Progress 2</a>
+              <a class="dropdown-item" href="progresses/progress-three.html">Progress 3</a>
             </div>
           </li>
         </div>
